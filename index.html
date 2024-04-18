@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite Sport Team</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      header {
+        background-color: #d22b2b;
+        padding: 1em;
+        border-bottom: 2px solid #000;
+      }
+
+      .container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      #logo img {
+        object-fit: cover;
+        width: 80px;
+        height: 80px;
+      }
+
+      #name {
+        font-size: 1.5em;
+        color: aliceblue;
+      }
+
+      main {
+        flex: 1;
+        background-color: #04aa6d;
+        min-width: 80%;
+        margin: auto;
+        padding: 1.5em;
+        border-left: 3px solid #000;
+        border-right: 3px solid #000;
+        display: flex;
+      }
+
+      main table {
+        margin: auto;
+        min-width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        background-color: aliceblue;
+      }
+
+      main th {
+        background-color: gold;
+      }
+
+      main th,
+      td {
+        padding: 15px;
+      }
+
+      main table,
+      main th,
+      main td {
+        border: 1px solid;
+      }
+
+      footer {
+        min-height: 50px;
+        background-color: #36454f;
+        text-align: center;
+        padding: 1.5em;
+      }
+
+      footer a {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: aliceblue;
+      }
+
+      footer a:hover {
+        color: #d22b2b;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="logo">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+            alt="Manchester United"
+          />
+        </div>
+        <div id="name">Manchester United FC</div>
+      </div>
+    </header>
+
+    <main>
+      <table>
+        <tr>
+          <th>Starting Players</th>
+          <th>Position</th>
+        </tr>
+        <tr>
+          <td>24. André Onana</td>
+          <td>Goalkeeper</td>
+        </tr>
+        <tr>
+          <td>20. Diogo Dalot</td>
+          <td>Right Back</td>
+        </tr>
+        <tr>
+          <td>5. Harry Maguire</td>
+          <td>Centre Back</td>
+        </tr>
+        <tr>
+          <td>19. Raphaël Varane</td>
+          <td>Centre Back</td>
+        </tr>
+        <tr>
+          <td>23. Luke Shaw</td>
+          <td>Left Back</td>
+        </tr>
+        <tr>
+          <td>18. Casemiro</td>
+          <td>Defensive Midfield</td>
+        </tr>
+        <tr>
+          <td>37. Kobbie Mainoo</td>
+          <td>Centre Midfield</td>
+        </tr>
+        <tr>
+          <td>8. Bruno Fernandes</td>
+          <td>Centre Midfield</td>
+        </tr>
+        <tr>
+          <td>10. Marcus Rashford</td>
+          <td>Left Winger</td>
+        </tr>
+        <tr>
+          <td>21. Anthony Santos</td>
+          <td>Right Winger</td>
+        </tr>
+        <tr>
+          <td>11. Rasmus Højlund</td>
+          <td>Centre Forward</td>
+        </tr>
+      </table>
+    </main>
+
+    <footer>
+      <p><a href="mailto:n_choun@mail.fhsu.edu">My Email</a></p>
+    </footer>
+  </body>
+</html>
